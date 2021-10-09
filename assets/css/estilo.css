@@ -1,0 +1,306 @@
+body {
+    margin: 0px !important;
+    background-color: #FFC8DD !important;
+}
+
+nav {
+    
+    transition: all .3s linear;
+    border-bottom: solid 5px #f8fc03;
+    
+}
+
+nav:hover {
+    
+    background-color: rgb(255, 255, 255) !important; 
+}
+
+a:hover {
+    color: #FFAFCC !important;
+}
+
+.d-block {
+    
+    
+    height: 600px;
+}
+
+#carouselExampleIndicators {
+
+   
+    
+}
+
+
+.row {
+    
+    padding: 20px;
+   
+    margin-bottom: 12px;
+    
+}
+
+#cardimagenstopo {
+    margin-left: 50px;
+   text-align: center;
+}
+
+.footer {
+
+    background-color: #A2D2FF;
+}
+
+#footer {
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+}
+
+
+
+
+.ifood-imagens {
+    text-align: center;
+    height: 120px;
+    background-color: #FFC8DD;
+    
+    
+}
+
+.ifood-secundario {
+    padding: 17px;
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+
+}
+
+.sobre-principal {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: left;
+    
+    
+}
+
+#sobre-principal {
+
+    color: black;
+}
+
+#card-produtos {
+    margin: 50px;
+
+}
+
+.card-img {
+    border-radius: 15px !important;
+    box-shadow: 5px 5px 5px black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+#tabela-produtos {
+    margin: 50px;
+    text-align: center;
+    width: 370px;
+}
+
+#tabela-produtos-2 {
+    text-align: center;
+    width: 370px;
+    margin: 50px;
+}
+
+.card-img-top {
+    height: 300px;
+    width: 390px;
+
+}
+
+.card-img-top:hover {
+    
+}
+
+.vitrine-produtos {
+    padding: 150px;
+}
+
+.btn {
+
+    color: rgb(255, 255, 255) !important;
+}
+
+.card-body {
+    text-align: center;
+}
+
+#card-textos-grande {
+    padding: 200px;
+}
+
+#gif-dia-dos-pais-1 {
+
+
+}
+
+#gif-dia-dos-pais-1 {
+    
+    margin-left: 200px;
+}
+
+#promo-dia-dos-pais-2 {
+
+    margin-left: 130px;
+}
+
+#promo-compre1ganhe2 {
+    
+    margin-left: 150px;
+}
+
+#texto-sobre {
+    margin-left: 350px;
+    border: solid white 3px;
+    margin-top: -349px;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 5px;
+    background-color: #BDE0FE;
+    margin-right: 15px;
+}
+
+
+#imagem-sobre {
+    margin-top: 50px;
+    margin-left: 50px;
+    border: none;
+    height: 350px;
+}
+
+.sobre-principal {
+    width: 270px;
+}
+
+.titulo-sobre-class {
+    
+    color:  black;
+
+}
+
+.text-center {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.me-5 {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.fab {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.card-img-overlay {
+    font-weight: bold;
+    background-color: #A2D2FF;
+    height: 10px;
+    
+    margin-top: -110px;
+   
+}
+
+.card-img-overlay:hover {
+    color: #A2D2FF;
+    
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f8fc038c;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 25px !important;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #10dceb !important;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049 !important;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}

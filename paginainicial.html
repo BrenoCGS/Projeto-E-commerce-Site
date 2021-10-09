@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pimba Donuts</title>
+    <link rel="shortcut icon" href="/assets/img/donut (1).png" type="image/x-icon">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/estilo.css" rel="stylesheet" />
+     <!-- Font Awesome -->
+     <link
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+     rel="stylesheet"
+     />
+     <!-- Google Fonts -->
+     <link
+     href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+     rel="stylesheet"
+     />
+     <!-- MDB -->
+     <link
+     href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+     rel="stylesheet"
+     />
+</head>
+<body>
+    <!-- NAVBAR (TOPO) -->
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #40C9FF;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img id="donut-logo" src="assets/img/pimbadonutslogo.img.png" alt="Logo Donuts" style="width: 50px;"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="paginainicial.html" style="color: black;">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="produtos.html" style="color: black;">Produtos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+                  Contato
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://www.instagram.com/pimbadonuts_oficial/" target="_blank">Instagram</a></li>
+                  <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=5571986629316&text=Ol%C3%A1%2C+eu+gostaria+de+realizar+um+pedido" target="_blank">Whatsapp</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- Elementos da Direita -->
+            <div class="d-flex align-items-center">
+              <!-- Ícone -->
+               <a class="text-reset me-3" href="checkout.html" target="_blank">
+               <i class="fas fa-shopping-cart"></i>
+               </a>
+               <!-- Notificações -->
+               <a
+               class="text-reset me-3 dropdown-toggle hidden-arrow"
+               href="#"
+               id="navbarDropdownMenuLink"
+               role="button"
+               data-mdb-toggle="dropdown"
+               aria-expanded="false"
+              >
+               <i class="fas fa-bell"></i>
+               <span class="badge rounded-pill badge-notification bg-danger">1</span>
+             </a>
+             <ul
+               class="dropdown-menu dropdown-menu-end"
+               aria-labelledby="navbarDropdownMenuLink"
+             >
+               <li>
+                 <a class="dropdown-item" href="#">Atualizações sobre Envio</a>
+               </li>
+               <li>
+                 <a class="dropdown-item" href="#">Outras Notícias</a>
+               </li>
+               <li>
+                 <a class="dropdown-item" href="#">Promoção Imperdível</a>
+               </li>
+             </ul>
+          </div>
+        </div>
+      </nav>
+        <!-- CARROSSEL -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/assets/img/Carrossel1ofc.jpg" class="d-block w-100" alt="img-carrossel1">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/logo-pimba-donuts-gif.gif" class="d-block w-100" alt="img-carrossel2">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/background-img2-paginainicial.jpg" class="d-block w-100" alt="img-carrossel3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+         <!-- ANÚNCIOS -->
+          <div class="ifood-imagens">
+            <div class="ifood-secundario">
+             <img src="/assets/img/ifood_ToolKitChurn_CapaFacebook_v3.png" alt="ifood1" style="width: 226px;" style="height: 38px;" id="ifood1">
+             <img src="/assets/img/chamanozap.png" alt="ifood2" style="width: 226px;" style="height: 38px;" id="ifood2">
+             <img src="/assets/img/ifood4.jpg" alt="ifood4" style="width: 226px;" style="height: 38px;" id="ifood3">
+            </div>
+         </div>  
+          <br><br>
+          <hr>
+          <!-- SOBRE -->
+          <div class="titulo-sobre-class">
+            <h2>Um Pouco da Nossa História:</h2>
+          </div>
+          <div class="sobre-principal">
+            <img src="/assets/img/3-donuts-no-prato.jpg" alt="3-donuts-no-prato" id="imagem-sobre" class="card-img">   
+          </div>
+          <div class="texto-sobre-principal">
+            <p id="texto-sobre">
+                
+              O microempreendedor soteropolitano, Miguel Diaz, teve uma ideia brilhante após pesquisar e descobrir o quão o povo brasileiro é apaixonado por doces. Nos Estados Unidos, o Donut, famoso lanche do Homer Simpson, é muito famoso e adorado por todos, e Miguel, percebeu que aqui no Brasil também estava fazendo sucesso. E assim que em 2021 nasceu o Pimba Donuts, com as famosas rosquinhas americanas com um toque brasileiro, dando origem a uma doce e feliz mistura. Em menos de um ano da sua inauguração, o Pimba Donuts já contava com três unidades em São Paulo. Hoje, além de SP, já está presente em Pernambuco, com cinco lojas espalhadas pelo estado e duas unidades no Ceará. Com o sucesso comprovado, o Pimba Donuts pretende ampliar ainda mais os horizontes com grandes projetos e levando MUITA DOÇURA A TODOS.
+
+          </p>
+          </div>
+          <br>
+          <hr>
+          <!-- ANÚNCIOS ANIMADOS -->
+          <br><br><br>
+          <div class="anuncios-animados">
+            <img src="/assets/img/promo-diadospais-1.gif" class="card-img" alt="gif-promo1" id="gif-dia-dos-pais-1" style="width: 250px;">
+            <img src="/assets/img/promo-diadospais-2.gif" alt="gif-promo2" id="promo-dia-dos-pais-2" class="card-img" style="width: 250px;">
+            <img src="/assets/img/promo-compre1ganhe2-gif.gif" alt="gif-promo3" id="promo-compre1ganhe2" class="card-img" style="width: 250px;">
+          </div>
+
+          <br><br><br><br>
+        
+            <hr>
+        <!-- CARD DE IMAGENS -->
+        <div id="cardimagenstopo" class="row row-cols-1 row-cols-md-3 g-4 col-11">
+          <div class="col">
+            <div class="card">
+              <img src="/assets/img/caixa-donut-2.jpg" class="card-img-top" alt="card1-promoção" style="height: 430px;">
+              <div class="card-body">
+                <h5 class="card-title">Promoção Imperdível !</h5>
+                <p class="card-text">Compre qualquer Donut por apenas R$7,90.   
+                   TEMPO LIMITADO</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/assets/img/cardimagem2.png" class="card-img-top" alt="card2-sorteio" style="height: 405px;">
+              <div class="card-body">
+                <h5 class="card-title">Sorteio Rolando!!</h5>
+                <p class="card-text">Sorteio de uma Caixa Especial com 4 Donuts rolando lá no Instagram, siga: @pimbadonuts_oficial e não fique de fora.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/assets/img/cardimagem3.jpg" class="card-img-top" alt="card3-oqueridinho" style="height: 430px;">
+              <div class="card-body">
+                <h5 class="card-title">^-^ O Queridinho ^-^</h5>
+                <p class="card-text">O mais famoso sabor da Donutceria pode ser seu por apenas R$6,50 + Entrega Grátis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+              
+          
+        
+    
+        <!-- Footer -->
+<footer class="text-center text-lg-start text-muted" style="background-color: #40C9FF;">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Fique ligado(a) nas nossas Redes Sociais:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5" style="background-color: #40C9FF;">
+      <!-- Grid row -->
+      <div class="row mt-3" style="background-color: #40C9FF;">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" style="background-color: #40C9FF;">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Pimba Donuts
+          </h6>
+          <p>
+            A melhor Donutceria de Salvador.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Produtos
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Caixa Especial</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Pimbasticos</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Simples</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contato
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Salvador, BA</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            pimbadonuts@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +55 (71) 98662-9316</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Direitos Reservados:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">pimbadonuts.com.br</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+    <!-- SCRIPTS -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+</body>
+</html>

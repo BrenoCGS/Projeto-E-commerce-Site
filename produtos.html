@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pimba Donuts</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/estilo.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+rel="stylesheet"
+/>
+</head>
+<body>
+    <!-- NAVBAR (TOPO) -->
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #40C9FF;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img id="donut-logo" src="assets/img/pimbadonutslogo.img.png" alt="Logo Donuts" style="width: 50px;"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="paginainicial.html" style="color: black;">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="produtos.html" style="color: black;">Produtos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+                  Contato
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://www.instagram.com/pimbadonuts_oficial/" target="_blank">Instagram</a></li>
+                  <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=5571986629316&text=Ol%C3%A1%2C+eu+gostaria+de+realizar+um+pedido" target="_blank">Whatsapp</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- Elementos da Direita -->
+            <div class="d-flex align-items-center">
+              <!-- Ícone -->
+               <a class="text-reset me-3" href="checkout.html" target="_blank">
+               <i class="fas fa-shopping-cart"></i>
+               </a>
+               <!-- Notificações -->
+               <a
+               class="text-reset me-3 dropdown-toggle hidden-arrow"
+               href="#"
+               id="navbarDropdownMenuLink"
+               role="button"
+               data-mdb-toggle="dropdown"
+               aria-expanded="false"
+             >
+               <i class="fas fa-bell"></i>
+               <span class="badge rounded-pill badge-notification bg-danger">1</span>
+             </a>
+             <ul
+               class="dropdown-menu dropdown-menu-end"
+               aria-labelledby="navbarDropdownMenuLink"
+             >
+               <li>
+                 <a class="dropdown-item" href="#">Atualizações sobre Envio</a>
+               </li>
+               <li>
+                 <a class="dropdown-item" href="#">Outras Notícias</a>
+               </li>
+               <li>
+                 <a class="dropdown-item" href="#">Promoção Imperdível</a>
+               </li>
+             </ul>
+             </div>
+           </div>
+         </nav>
+          </div>
+        </div>
+      </nav>
+      <!-- CARD TELA DE PRODUTOS -->
+      <div class="card text-white" id="card-produtos" style="background-color: rgba(255, 255, 255, 0);">
+        <img id="card-produto-img"
+          src="/assets/img/capa-de-fundo-card-produtos.jpg"
+          class="card-img"
+          alt="capa-principal-produtospage"
+          
+        />
+        
+      </div>
+      <img src="https://www.moinhowafers.com.br/html/img/Nossos-Produtos.png" alt="" style="margin-left: 500px;" style="margin-top: 200px;">
+      <!-- VITRINE DE PRODUTOS -->
+      <div class="vitrine-produtos">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card" >
+            <img src="/assets/img/donut-oreo-atualizado.jpg" class="card-img-top" alt="donut-oreo">
+            <div class="card-body">
+              <h5 class="card-title">Donut de Oreo</h5>
+              <p class="card-text">Delicioso Donut de Oreo com uma cobertura com o mesmo gosto do Oreo Original e pedaços de Oreo por cima.</p>
+              <a href="checkout.html" target="_blank" class="btn" style="background-color: #0088ff;">Compre Já</a>            
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/assets/img/caixa-donut.jpg" class="card-img-top" alt="caixa-donut">
+            <div class="card-body">
+              <h5 class="card-title">Caixa Especial</h5>
+              <p class="card-text">Uma Caixa toda perfeitinha e linda pra você levando 4 Donuts de sua preferência. Feita especialmente pra você.</p>
+              <a href="checkout.html" target="_blank" class="btn" style="background-color: #0088ff;">Compre Já</a>  
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/assets/img/donut-paçoca-atualizado.jpg" class="card-img-top" alt="donut-paçoca">
+            <div class="card-body">
+              <h5 class="card-title">Donut de Paçoca</h5>
+              <p class="card-text">Maravilhoso Donut de Paçoca com pedaços de paçoca por cima, uma verdadeira delícia. Não perca tempo!</p>
+              <a href="checkout.html" target="_blank" class="btn" style="background-color: #0088ff;">Compre Já</a>  
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="/assets/img/donut-ninho-atualizado.jpg" class="card-img-top" alt="donut-ninho">
+            <div class="card-body">
+              <h5 class="card-title">Donut de Ninho</h5>
+              <p class="card-text">O preferido de muita gente por aqui, esse Donut vem com o majestoso sabor do Ninho, além de ir próprio leite em pó Ninho.</p>
+              <a href="checkout.html" target="_blank" class="btn" style="background-color: #0088ff;">Compre Já</a>  
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/assets/img/donut-churros-atualizado.jpg" class="card-img-top" alt="donut-churros">
+            <div class="card-body">
+              <h5 class="card-title">Donut de Churros</h5>
+              <p class="card-text">O mais comprado da nossa loja, sinta o sabor nostalgico do Churros com esse Donut divino e flutue nas nuvens com tanto sabor.</p>
+              <a href="checkout.html" target="_blank" class="btn" style="background-color: #0088ff;">Compre Já</a>  
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/assets/img/donut-bis-atualizado.jpg" class="card-img-top" alt="donut-bis">
+            <div class="card-body">
+              <h5 class="card-title">Donut de Bis</h5>
+              <p class="card-text">Delicioso Donut sabor Bis com um delicioso Bis em cima, perfeito e bem crocante, aproveite e não perca tempo.</p>
+              <a href="checkout.html" target="_blank" class="btn" style="background-color: #0088ff;">Compre Já</a>  
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/assets/img/choc-meio-amargo-atualizado.jpg" class="card-img-top" alt="donut-meio-amargo-choc">
+            <div class="card-body">
+              <h5 class="card-title">Donut de Chocolate Meio Amargo</h5>
+              <p class="card-text">Outro nível de sabor que particularmente, nos amamos, o Meio Amargo, igual a muitas pessoas por ai né? Peça o seu hoje mesmo.</p>
+              <a href="checkout.html" target="_blank" class="btn" style="background-color: #0088ff;">Compre Já</a>  
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/assets/img/choc-branco-atualizado.jpg" class="card-img-top" alt="donut-choc-branco">
+            <div class="card-body">
+              <h5 class="card-title">Donut de Chocolate Branco</h5>
+              <p class="card-text">O tão conhecido Chocolate Branco, esse donut é deliciosamente molhado com essa maravilha e se torna uma perfeição de outro mundo.</p>
+              <a href="checkout.html" target="_blank" class="btn" style="background-color: #0088ff;">Compre Já</a>  
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/assets/img/choc-ao-leite-atualizado.jpg" class="card-img-top" alt="donut-choc-ao-leite">
+            <div class="card-body">
+              <h5 class="card-title">Donut de Chocolate ao Leite</h5>
+              <p class="card-text">Um sabor que está na boca de todos os brasileiros! o famoso e tradicional chocolate ao leite, não precisa nem de descrição né?</p>
+              <a href="checkout.html" target="_blank" class="btn" style="background-color: #0088ff;">Compre Já</a>  
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+          <!-- Footer -->
+<footer class="text-center text-lg-start text-muted" style="background-color: #40C9FF;">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Fique ligado(a) nas nossas Redes Sociais:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5" style="background-color: #40C9FF;">
+      <!-- Grid row -->
+      <div class="row mt-3" style="background-color: #40C9FF;">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" style="background-color: #40C9FF;">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Pimba Donuts
+          </h6>
+          <p>
+            A melhor Donutceria de Salvador.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Produtos
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Caixa Especial</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Pimbasticos</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Simples</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contato
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Salvador, BA</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            pimbadonuts@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +55 (71) 98662-9316</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Direitos Reservados:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">pimbadonuts.com.br</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+  <!-- SCRIPTS -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
+></script>
+</body>
+
+</html>

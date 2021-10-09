@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/estilo.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+rel="stylesheet"
+/>
+</head>
+<body>
+   <!-- NAVBAR (TOPO) -->
+   <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #40C9FF;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img id="donut-logo" src="assets/img/pimbadonutslogo.img.png" alt="Logo Donuts" style="width: 50px;"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="paginainicial.html" style="color: black;">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="produtos.html" style="color: black;">Produtos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+              Contato
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="https://www.instagram.com/pimbadonuts_oficial/" target="_blank">Instagram</a></li>
+              <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=5571986629316&text=Ol%C3%A1%2C+eu+gostaria+de+realizar+um+pedido" target="_blank">Whatsapp</a></li>
+              <li><hr class="dropdown-divider"></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- Elementos da Direita -->
+        <div class="d-flex align-items-center">
+          <!-- Ícone -->
+           <a class="text-reset me-3" href="checkout.html">
+           <i class="fas fa-shopping-cart"></i>
+           </a>
+           <!-- Notificações -->
+           <a
+           class="text-reset me-3 dropdown-toggle hidden-arrow"
+           href="#"
+           id="navbarDropdownMenuLink"
+           role="button"
+           data-mdb-toggle="dropdown"
+           aria-expanded="false"
+         >
+           <i class="fas fa-bell"></i>
+           <span class="badge rounded-pill badge-notification bg-danger">1</span>
+         </a>
+         <ul
+           class="dropdown-menu dropdown-menu-end"
+           aria-labelledby="navbarDropdownMenuLink"
+         >
+           <li>
+             <a class="dropdown-item" href="#">Atualizações sobre Envio</a>
+           </li>
+           <li>
+             <a class="dropdown-item" href="#">Outras Notícias</a>
+           </li>
+           <li>
+             <a class="dropdown-item" href="#">Promoção Imperdível</a>
+           </li>
+         </ul>
+         </div>
+       </div>
+     </nav>
+      </div>
+    </div>
+  </nav>    
+  
+  <!-- CHECKOUT -->
+      <div class="row">
+        <div class="col-75">
+          <div class="container">
+            <form action="/action_page.php" >
+      
+              <div class="row">
+                <div class="col-50">
+                  <h3>Endereço de Cobrança</h3>
+                  <label for="fname"><i class="fa fa-user"></i> Nome Completo</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Digite seu Nome Completo">
+                  <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                  <input type="text" id="email" name="email" placeholder="Digite seu E-mail">
+                  <label for="adr"><i class="fa fa-address-card-o"></i> Endereço</label>
+                  <input type="text" id="adr" name="address" placeholder="Digite seu Endereço">
+                  <label for="city"><i class="fa fa-institution"></i> Cidade</label>
+                  <input type="text" id="city" name="city" placeholder="Digite o nome da sua Cidade">
+      
+                  <div class="row" >
+                    <div class="col-50">
+                      <label for="state">Estado</label>
+                      <input type="text" id="state" name="state" placeholder="Exemplo - BA">
+                    </div>
+                    <div class="col-50">
+                      <label for="zip">CEP</label>
+                      <input type="text" id="zip" name="zip" placeholder="Digite seu CEP">
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-50">
+                  <h3>Pagamento</h3>
+                  <label for="fname">Cartões Aceitos</label>
+                  <div class="icon-container">
+                    <img src="/assets/img/bandeiras-cartões-transparente.png" alt="Bandeiras.cartões" style="width: 300px;">
+                  </div>
+                  <label for="cname">Nome no Cartão</label>
+                  <input type="text" id="cname" name="cardname" placeholder="Digite o Nome exibido no seu Cartão">
+                  <label for="ccnum">Número do Cartão</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="Digite o Número exibido no seu Cartão">
+                  <label for="expmonth">Mês de Vencimento</label>
+                  <input type="text" id="expmonth" name="expmonth" placeholder="Digite o Mês de Vencimento do seu Cartão">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="expyear">Ano de Vencimento</label>
+                      <input type="text" id="expyear" name="expyear" placeholder="Ex: 2027">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv" placeholder="Ex: 352">
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+              <label>
+                <input type="checkbox" checked="checked" name="sameadr"> Endereço de Entrega igual ao de Cobrança
+              </label>
+              <input type="submit" value="Finalize sua Compra" class="btn" id="botão-finalizar-compra">
+            </form>
+          </div>
+        </div>
+      
+        <div class="col-25" style="font-size: 15px;">
+          <div class="container">
+            <h4>Carrinho
+              <span class="price" style="color:black">
+                <i class="fa fa-shopping-cart"></i>
+                <b>1</b>
+              </span>
+            </h4>
+            <p><a href="#">Produto 1</a> <span class="price">R$6,50</span></p>
+            <hr>
+            <p>Total <span class="price" style="color:black"><b>R$6,50</b></span></p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Footer -->
+<footer class="text-center text-lg-start text-muted" style="background-color: #40C9FF;">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" 
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Fique ligado(a) nas nossas Redes Sociais:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5" style="background-color: #40C9FF;">
+      <!-- Grid row -->
+      <div class="row mt-3" style="background-color: #40C9FF;">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" style="background-color: #40C9FF;">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Pimba Donuts
+          </h6>
+          <p>
+            A melhor Donutceria de Salvador.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Produtos
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Caixa Especial</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Pimbasticos</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Simples</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contato
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Salvador, BA</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            pimbadonuts@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +55 (71) 98662-9316</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Direitos Reservados:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">pimbadonuts.com.br</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+       <!-- SCRIPTS -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
+></script>
+</body>
+</html>
